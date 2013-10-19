@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@+string/pref_basic_category_name" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_basic_chars"
+            android:summary="@+string/pref_basic_chars_summary"
+            android:title="@+string/pref_basic_chars_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_basic_chars_no_spaces"
+            android:summary="@+string/pref_basic_chars_no_spaces_summary"
+            android:title="@+string/pref_basic_chars_no_spaces_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_basic_words"
+            android:summary="@+string/pref_basic_words_summary"
+            android:title="@+string/pref_basic_words_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_basic_sentences"
+            android:summary="@+string/pref_basic_sentences_summary"
+            android:title="@+string/pref_basic_sentences_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_basic_paragraphs"
+            android:summary="@+string/pref_basic_paragraphs_summary"
+            android:title="@+string/pref_basic_paragraphs_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

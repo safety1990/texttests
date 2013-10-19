@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_test"
+        android:icon="@+drawable/ic_action_accept"
+        android:showAsAction="always"
+        android:title="@+string/action_test"/>
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@+drawable/ic_action_remove"
+        android:showAsAction="always"
+        android:title="@+string/action_clear"/>
+    <item
+        android:id="@+id/action_paste"
+        android:title="@+string/action_paste"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@+string/action_settings"/>
+</menu>
